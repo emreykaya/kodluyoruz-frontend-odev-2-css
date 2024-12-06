@@ -1,0 +1,128 @@
+
+/************* ID's *************/
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+/************* boxes *************/
+
+.box {
+    margin-bottom: 5px;
+    background-color: rgb(207, 207, 207);
+    text-align: center;
+    padding: 16px;
+}
+
+.box p {
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.box-1 {
+    background-color: aquamarine;
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-2 {
+    background-color: rgb(98, 202, 167);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box-3 {
+    background-color: rgb(78, 151, 127);
+    flex: 3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;  
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+
+/************* inputs *************/
+
+
+.input {
+    margin: 8px 0 10px 0;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 75%;
+} 
+
+.input-2 {
+    margin: 5px 0 5px 0;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    width: 45%;
+} 
+
+/************* butons *************/
+
+.btn {
+        background-color: rgb(77, 74, 74);
+        color: white;
+        padding: 2px 8px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        transition-duration: 0.2s;
+        border: 1px solid transparent;
+        border-radius: 5px;
+}
+
+.btn-2 {
+    background-color: rgb(214, 213, 213);
+    color: rgb(0, 0, 0);
+    padding: 2px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    transition-duration: 0.2s;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #04AA6D;
+    color: white;
+}
+
+  /************* paragraph *************/
+
+p {
+    line-height: 0.1; 
+    margin: 10px;
+
+}
+
+/************* footer *************/
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
